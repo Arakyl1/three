@@ -1,0 +1,132 @@
+$fontTitle: 'Merienda One', cursive;
+$fontMain: 'Open Sans', sans-serif;
+$colorTextHover: #E8C300;
+$colorTextLight: #fff;
+$textColMobaleMenu: #334034;
+$black: #161616;
+$borderLine: 1px solid rgba(255, 255, 255, 0.2); 
+$menu-list-text-col: #999;
+
+
+
+@mixin navLink {
+    line-height: 18px;
+    font-weight: 500;
+    color: $colorTextLight;
+    font-family: $fontMain;
+    transition: all 0.3s;
+    padding: 0 15px;
+    opacity: 0;
+    animation: navLinkAnim 1s ease;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+    &:hover{
+        text-decoration: none;
+        color: $colorTextHover;
+    }
+}
+@mixin titleLine ($bottom){
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background-color: $colorTextHover;
+    border-radius: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: $bottom;
+}
+@mixin SpanText {
+    font-size: 12px;
+    line-height: 100px;
+    color: rgba(51, 51, 51, 0.5);
+    text-align: center;
+    font-weight: 600;
+    span{
+        font-size: 14px;
+        font-weight: 700;
+        color: rgba(51, 51, 51, 0.7);
+    }
+}
+@mixin span-section {
+    font-size: 12px;
+    line-height: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    color: $colorTextLight;
+}
+@mixin aboutTitle {
+    .about-title{
+        font-size: 36px;
+        line-height: 48px;
+        text-transform: uppercase;
+        font-family: $fontTitle;
+        position: relative;
+        margin-bottom: 30px;
+        &::after{
+           @include titleLine(-20px)
+        }
+    }
+}
+
+@mixin cartContent($color,$font-weight, $font-weight2, $abouTextSpanColor) {
+    .col-6{
+        padding-top: 110px;
+        text-align: center;
+        @include aboutTitle();
+        .about-text-main{
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: -1.2px;
+            color: $color;
+            font-weight: $font-weight;
+        }
+        .about-text-span{
+            font-size: 14px;
+            line-height: 18px;
+            color: $abouTextSpanColor;
+            font-weight: $font-weight2;
+        }
+    }
+}
+
+@mixin imagCub($margiBottomCol5,$positionRightCub, 
+            $positionLeftCub, $positionCubTransX) {
+    .col-5 {
+        margin-bottom: $margiBottomCol5;
+        img{
+            width: 100%;
+            border-radius: 8px;
+            height: auto;
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+            
+        }
+        &.img-decoration-cub{
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                max-width: 200px;
+                width: 100%;
+                height: 50%;
+                border: 15px solid $colorTextHover;
+                border-radius: 4px;
+                background: none;
+                top: 50%;
+                right: $positionRightCub;
+                left: $positionLeftCub;
+                transform: translate($positionCubTransX, -50%);
+            }
+        }
+    }
+}
+
+@mixin decoration-line($lineWib, $lineHeight) {
+    position: absolute;
+    height: $lineHeight;
+    width: $lineWib;
+    top: 0;
+    background-color:  rgba(255, 255, 255, 0.2);
+}
+

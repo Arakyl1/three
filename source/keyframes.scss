@@ -1,0 +1,210 @@
+
+@keyframes logoImg{
+    0%{
+        transform: rotate(0);
+    }
+    5%{
+        transform: rotate(-10deg);
+    }
+    25%{
+        transform: rotate(180deg);
+    }
+    50%{
+        transform: rotate(270deg);
+    }
+    60%{
+        transform: rotate(10deg);
+    }
+    64%{
+        transform: rotate(-10deg);
+    }
+    75%{
+        transform: rotate(100deg);
+    }
+    85%{
+        transform: rotate(-240deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes decorationLineLeignt{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;   
+    }
+    
+}
+@keyframes decorationLineShadow{
+    0%{
+        box-shadow: none;
+    }
+    21%{
+        box-shadow: 0.1px 0.1px 0.1px 0.1px $menu-list-text-col
+    }
+    75%{
+        box-shadow: 0.1px 0.1px 5px 0.1px $colorTextHover;
+    }
+    100%{
+        box-shadow: 0 0 0 0 $colorTextHover;
+    }
+}
+
+@keyframes decorationLineLeigntAfter{
+    0%{
+        
+        bottom: 250px;
+        top: 100%;
+    }
+    100%{
+        top: 90px;
+    }
+}
+@keyframes animatButtomHeder{
+    0%{
+        transform: translateX(-50%) scale(0);
+        transform-origin: bottom;
+    }
+    45%{
+        transform: translateX(-50%) scale(0);
+        transform-origin: bottom;
+    }
+    100%{
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+@keyframes decorationLineLeigntBefore{
+    0%{
+        width: 0.5px;
+        transform: translateX(-50%) scaleY(0);
+    }
+    100%{
+        transform: translateX(-50%) scaleY(1);
+        width: 0.5px;
+    }
+}
+@keyframes animatonBottomLine{
+    0%{
+        width: 0;
+    }
+    100%{
+    width: 100%;
+    }
+}
+@keyframes headerTitle{
+    0%{
+        opacity: 0;
+        fill: none;
+        stroke-opacity: 0;
+        
+    }
+    40%{
+        stroke-opacity: 1;
+        opacity: 1;
+        fill: rgba($color: #fff, $alpha: 0);
+    }
+    100%{
+        opacity: 1;
+        stroke-dasharray: 350;
+        stroke-dashoffset: 10;
+        fill: rgba($color: #fff, $alpha: 1);
+        
+    }
+}
+
+@keyframes headettitleLine{
+    0%{
+        opacity: 1;
+        left: 100%;
+        bottom: 22px;
+        width: 5px;
+        background-color: $colorTextLight;
+    }
+    40%{
+        opacity: 1;
+        left: 100%;
+        bottom: 22px;
+        width: 5px;
+    }
+    50%{
+        bottom: -15px;
+    }
+    80%{
+        left: 50%;
+        width: 5px;
+    }
+    95%{
+        width: 60px;
+        background-color: $colorTextLight;
+    }
+    100%{
+        background-color: $colorTextHover;
+        width: 60px;
+        left: 50%;
+        bottom: -15px;
+        opacity: 1;
+    }
+}
+@keyframes navLinkAnim{
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes HeaderTitleSpan{
+    0%{
+        transform: translate(-50%, 50px) scale(0.5);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        transform: translate(-50%, 0) scale(1);
+        opacity: 1;
+    }
+}
+@keyframes headerLeftIhfo{
+    0%{
+        opacity: 0;
+        transform: rotate(-90deg) translateY(-130px) scale(0.3);
+    }
+    40%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(-90deg) translateY(0) scale(1);
+    }
+}
+@keyframes headerLink{
+    0%{opacity: 0;}
+    90%{
+        opacity: 0;
+        transform: translateX(50px) scale(0.3);
+        background-color: $colorTextHover;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0) scale(1);
+        background-color: transparent;
+    }
+}
+@keyframes mobaleMenuButton {
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

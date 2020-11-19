@@ -1,0 +1,539 @@
+@media (max-width: 1200px){
+    .about-me .row .col-6, .out-team .row .col-6, .specialties .container .row .col-6{
+        padding-top: 60px;
+    }
+    .book-a-table .row .col-6{
+        padding-top: 0;
+    }
+    .specialties .container .row .col-5.img-decoration-cub::before{
+        max-width: 180px;
+        transform: translate(-80px, -50%);
+    }
+    .delicions-menu, .contact{
+        padding-top: 80px;
+        
+    }
+    .delicions-menu .container .about-text-main, .delicions-menu .container .menu-categori{
+        margin-bottom: 35px;
+    }
+    .delicions-menu .container .menu-list .menu-list-etem{
+        width: 30%;
+        margin-right: 3%;
+    }
+    .private-events .container .row .col-5.img-decoration-cub::before{
+        width: 175px;
+        transform: translate(85px, -50%);
+    }
+    .private-events .container .row .col-5 h5{
+        font-size: 22px;
+    }
+    
+}
+@media (max-width: 992px){
+    header .container nav .row.header-top .col{
+        display: none;
+    }
+    header .container .mobale-menu{
+        display: block;
+    }
+    header .container .row.header-center .col-8 .header-title-svg{
+        margin-top: 0;
+        position: absolute;
+        top: 40%;
+        width: 100%;
+    }
+    header .container .row.header-center .col-8 .title-span{
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        animation-delay: 2.2s;
+    }
+    header .container .row.header-center .col-8::after, 
+    header .container .row.header-center .col-8 .decoration-line-left, 
+    header .container .row.header-center .col-8 .decoration-line-right{
+        display: none;
+    }
+    header .container .row.header-center .col-8 .header-title-svg .header-ttile path{
+        animation-delay: 1s;
+    }
+    header .container .row.header-center .col-8 .header-title-svg::before{
+        animation-delay: 2.7s;
+    }
+    header .container .row.header-center .col-1:first-child .text-rotate{
+        animation-delay: 3.2s;
+    }
+    header .container .row.header-center .col-1:last-child .header-link a{
+        animation-duration: 4s;
+    }
+    .about-me .row .col-6, .out-team .row .col-6, .specialties .container .row .col-6{
+        padding-top: 5px;
+    }
+    .about-me .row .col-6 .about-title, 
+    .out-team .row .col-6 .about-title,
+    .book-a-table .row .col-6 .about-title,
+    .delicions-menu .container .about-title,
+    .contact .container .about-title{
+        font-size: 32px;
+    }
+    .about-me .row .col-6 .about-text-main,
+    .out-team .row .col-6 .about-text-main,
+    .delicions-menu .container .about-text-main,
+    .contact .container p.about-text-main{
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 0.5rem;
+    }
+    .about-me .row .col-6 .about-text-span,
+    .out-team .row .col-6 .about-text-span{
+        font-weight: 300;
+        font-size: 13px;
+    }
+    .about-me .col-5.img-decoration-cub::before{
+        max-width: 150px;
+        transform: translate(75px, -50%);
+    }
+    .out-team .row .col-5.img-decoration-cub::before{
+        max-width: 150px;
+        transform: translate(-75px, -50%);
+    }
+    .about-me, .book-a-table{
+        padding-top: 80px;
+    }
+    .about-me .row, .out-team .row .col-5{
+        margin-bottom: 70px;
+    }
+    .out-team .span-section, 
+    .book-a-table .span-section,
+    .specialties .container .span-section,
+    .private-events .container h2.span-section,
+    .private-events .container p.span-section{
+        line-height: 80px;
+    }
+    .book-a-table .col-5.img-decoration-cub{
+        display: none;
+    }
+    .book-a-table .row .col-6{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .specialties .container .row .col-5{
+        margin-bottom: 70px;
+        &.img-decoration-cub{
+            max-width: 32%;
+            &::before{
+                display: none;
+            }
+        }
+
+    }
+    .specialties .container .row .col-6 .about-title{
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 20px;
+        &::after{
+            bottom: -10px;
+        }
+    }
+    .specialties .container .row .col-6 .about-text-main{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+    .specialties .container .row .col-6 .about-text-span{
+        font-size: 12px;
+        font-weight: 300;
+        color: $colorTextLight;
+        opacity: 0.8;
+    }
+    .delicions-menu, .contact{
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    .delicions-menu .container .menu-categori .item-menu{
+        padding: 8px 20px;
+    }
+    .delicions-menu .container .menu-list .menu-list-etem{
+        width: 45%;
+    }
+    .private-events .container .row .col-5.img-decoration-cub::before{
+        max-width: 120px;
+    }
+    .private-events .container .row .col-5.offset-md-1.img-decoration-cub::before {
+        transform: translate(-50%, -50%);
+    }
+    .private-events .container .row .col-5.img-decoration-cub::before{
+        transform: translate(50%, -50%);
+    }
+    .contact .container form.contacts input[type="button"]{
+        width: 25%;
+    }
+    .contact .container form.contacts .contact-info{
+        width: 75%;
+    }
+    .contact .container form.contacts .contact-info p{
+        line-height: 18px;
+        font-size: 14px;
+        svg{
+            width: 16px;
+            height: 16px;
+        }
+    }
+    .contact .container{
+        margin-bottom: 50px;
+    }
+    header .container nav .row.header-top .col-2{
+        flex: 0 0 100%;
+        max-width: 100%;
+        img{
+            bottom: auto;
+            top: 30px;
+            right: 30px;
+            width: 120px
+        }
+    }
+    .private-events .container .row .col-5:last-child h5{
+        font-size: 18px;
+        left: 45px;
+    }
+    .private-events .container .row .col-5 h5{
+        font-size: 18px;
+        right: 45px;
+    }
+}
+@media  (max-width: 767.9px)  {
+    header .container .mobale-menu .buttom-mobale-menu{
+        z-index: 9;
+    }
+    header .container .row.header-center{
+        z-index: 8;
+    }
+    header .container .row.header-center .col-8{
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    header .container .row.header-center .col-1:last-child .header-link{
+        top: 70%;
+    }
+    header .container .row.header-center .col-1:last-child .header-link a{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        img{
+            width: 16px;
+            line-height: 40px;
+        }
+    }
+    header .container .row.header-center .col-1:first-child .text-rotate{
+        bottom: 0;
+    }
+    .about-me, .book-a-table{
+        padding-top: 50px;
+    }
+    .about-me .row .col-6, .out-team .row .col-6, .specialties .container .row .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-me .col-5.img-decoration-cub{
+        flex: 0 0 70%;
+        max-width: 70%;
+        &::before{
+            max-width: 180px;
+            transform: translate(50%, -50%);
+        }
+    }
+    .out-team .row .col-5.img-decoration-cub,.specialties .container .row .col-5.img-decoration-cub{
+        flex: 0 0 60%;
+        max-width: 60%;
+        margin-left: 20%;
+        margin-bottom: 30px;
+        &::before{
+            max-width: 150px;
+            transform: translate(-50%, -50%);
+        }
+    }   
+    .out-team .row .col-6 .about-text-span{
+        font-weight: 400;
+        color: $colorTextLight;
+        opacity: 0.8;
+    }
+    .out-team .span-section, .private-events .container h2.span-section, 
+    private-events .container p.span-section, footer .copirate p{
+        line-height: 60px;
+    }
+    .book-a-table .span-section{
+        line-height: 28px;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .specialties .container .row .col-6 .about-text-main{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .specialties .container .row .col-6 .about-text-span{
+        font-size: 14px;
+        font-weight: 400;
+        opacity: 0.9;
+    }
+    .carousel-item{
+        margin-bottom: 60px;
+    }
+    .specialties .container .carousel.slide ol.carousel-indicators li{
+        width: 12px;
+        height: 12px;
+        margin-right: 30px;
+    }
+    .delicions-menu .container .about-text-main, .contact .container p.about-text-main{
+        font-size: 14px;
+        width: 90%;
+    }
+    .delicions-menu .container {
+        position: relative;
+        .menu-categori{
+            position: absolute;
+            top: 140px;
+            left: -140%;
+            display: block;
+            background: rgb(255,116,6), linear-gradient(45deg, rgba(255,116,6,1) 0%, rgba(255,223,130,1) 69%);
+            padding: 60px 60px 60px 110px ;
+            border-radius: 0   10px 10px 0;
+            z-index: 10;
+            .item-menu{
+                display: block;
+                border: none;
+                font-size: 28px;
+                color: $textColMobaleMenu;
+                margin-bottom: 20px;
+                &:hover,&:focus{
+                    color: $black;
+                    transform: translateX(10px);
+                }
+            }
+        }
+    }
+    .delicions-menu .container .menu-list{
+        margin-top: 60px;
+        position: relative;
+    }
+    .mobale-filter-button{
+        position: absolute;
+        top: -50px;
+        right: 20px;
+        padding: 10px 35px 10px 20px;
+        background: $colorTextHover url('../img/srg/sort-down-solid.svg') no-repeat right 5px top 3px ;
+        background-size: 16px;
+        font-weight: 600;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    
+    }
+    .buttom-mobale-categor{
+        position: relative;
+        .close-button{
+            position: absolute;
+            top: -20px;
+            right: -30px;
+            height: 35px;
+            width: 35px;
+            .button-line{
+                width: 100%;
+                height: 3px;
+                background-color: $textColMobaleMenu;
+                transform-origin: 55%;
+                &:first-child{
+                    transform: rotate(-45deg);
+                }
+                &:last-child{
+                    transform: rotate(45deg);
+                }
+            }
+
+        }
+    }
+    .delicions-menu .container .menu-list .menu-list-etem .name-of-dish, .delicions-menu .container .menu-list .menu-list-etem .price-of-the-dish{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .delicions-menu .container .menu-list .menu-list-etem .description-of-the-dish{
+        margin-bottom: 5px;
+    }
+    .delicions-menu .container .menu-list .menu-list-etem{
+        margin-bottom: 10px;
+    }
+    .private-events .container .row .col-5{
+        flex: 0 0 50%;
+        max-width: 50%;
+        &::before{
+            display: none;
+        }
+    }
+}
+@media (max-width: 576px){
+    header .container nav .row.header-top .col-2 img{
+        width: 90px;
+        top: 20px;
+        right: 20px;
+    }
+    header .container .row.header-center .col-1:first-child .text-rotate{
+        bottom: -5%;
+        left: 80%;
+    }
+    header .container .mobale-menu .buttom-mobale-menu{
+        top: 50px;
+    }
+    header .container .row.header-center .col-1:last-child .header-link{
+        right: 5%;
+    }
+    header .container .row.header-center .col-8::before{
+        height: 100px;
+    }
+    header .container .row.header-center .col-8 .bown-button{
+        bottom: 100px;
+    }
+    .about-me .col-5.img-decoration-cub::before, .out-team .row .col-5.img-decoration-cub::before{
+        max-width: 50%;
+        border-width: 12px;
+    }
+    .out-team .row .col-6{
+        margin-bottom: 50px;
+    }
+    .book-a-table .row .col-6 form input, .book-a-table .row .col-6 form select.form-control{
+        width: 100%;
+        height: 40px;
+    }
+    .specialties .container .span-section{
+        line-height: 60px;
+        margin-bottom: 0;
+    }
+    .mobale-filter-button{
+        padding: 10px 55px 10px 40px;
+        background-position: right 10px top ;
+    }
+    .delicions-menu .container .menu-list .menu-list-etem{
+        width: 100%;
+    }
+    .delicions-menu .container .menu-list .menu-list-etem .name-of-dish, .delicions-menu .container .menu-list .menu-list-etem .price-of-the-dish{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .private-events .container .row .col-5{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .private-events .container .row .col-5 h5{
+        font-size: 22px;
+        right: 55px;
+    }
+    .private-events .container .row .col-5:last-child h5{
+        font-size: 22px;
+        left: 55px;
+    }
+    .private-events .container p.span-section{
+        line-height: 24px;
+        font-size: 16px;
+        color: $colorTextLight;
+        opacity: 0.8;
+    }
+    .private-events .images{
+        flex-wrap: wrap;
+        img{
+            width: 50%;
+        }
+    }
+    .contact .container form.contacts input[type="email"], 
+    .contact .container form.contacts input[type="text"], 
+    .contact .container form.contacts input[type="button"]{
+        width: 100%;
+        height: 40px;
+    }
+    .contact .container form.contacts .contact-info{
+        margin-top: 30px;
+    }
+    
+}
+@media (max-width: 414px){
+    header .container .mobale-menu .buttom-mobale-menu{
+        top: 20px;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        .botom-menu-line{
+            height: 4px;
+            border-radius: 2px;
+        }
+    }
+    header .container nav .row.header-top .col-2 img{
+        width: 70px;
+        top: 15px;
+        right: 15px;
+    }
+    header .container .row.header-center .col-1:first-child .text-rotate p{
+        font-size: 12px;
+    }
+    header .container .row.header-center .col-1:last-child .header-link{
+        top: 80%;
+    }
+    header .container .row.header-center .col-8::before{
+        height: 50px;
+    }
+    header .container .row.header-center .col-8 .bown-button{
+        bottom: 50px;
+    }
+    .about-me, .book-a-table{
+        padding-top: 30px;
+    }
+    .about-me .row .col-6 .about-text-span{
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .about-me .col-5.img-decoration-cub::before, .out-team .row .col-5.img-decoration-cub::before{
+        border-width: 10px;
+        max-width: 45%;
+    }
+    .out-team .span-section{
+        line-height: 40px;
+    }
+    .out-team .row .col-6 .about-title{
+        font-size: 26px;
+        margin-bottom: 20px;
+        &::after{
+            bottom: -10px;
+        }
+    }
+    .out-team .row .col-6 .about-text-span{
+        opacity: 1;
+    }
+    .out-team .row .col-6{
+        margin-bottom: 30px;
+    }
+    .book-a-table .span-section{
+        font-size: 12px;
+    }
+    .specialties .container .row .col-6 .about-title{
+        font-size: 18px;
+    }
+    .specialties .container .row .col-6 .about-text-main{
+        font-size: 14px;
+    }
+    .specialties .container .row .col-6 .about-text-span{
+        font-size: 12px;
+        opacity: 1;
+    }
+    .contact .container p.about-text-main, .delicions-menu .container .about-text-main{
+        font-size: 12px;
+    }
+    .mobale-filter-button{
+        padding: 8px 35px 8px 20px;
+    }
+    .private-events .container p.span-section span{
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .contact .container form.contacts .contact-info p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
